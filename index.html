@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+	<title>Document</title>
+	<style>
+body{
+	min-height: 500vh;
+	background-color: #141414;
+}
+		.box{
+			
+
+    margin: auto;
+    width: 90%;
+    height: 333px;
+    border: 2px solid red;
+    margin-top: 97px;
+    margin-top: 97px;
+
+		}
+
+
+
+	#punder{
+
+margin: auto;
+    width: 80%;
+    height: 433px;
+    
+    margin-top:202px;
+}
+
+p{
+	color:#f1ffa3;
+	text-align: center;
+	animation:text 4s 1;
+	transition: 3s;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: 'Zen Kurenaido', sans-serif;
+	display:block;
+margin-top:10px;
+	text-align: center;
+}
+@keyframes text{
+
+	0%{
+margin-top: 10px;
+}30%{
+margin-top: 10px;
+
+}
+}
+img{
+	hegiht:400px;
+	width:70%;
+animation:im 4s 1;
+	border-color: white;
+	margin-left: 58px;
+margin-top:19px;
+	align-items: center;
+}
+@keyframes im{
+0%{
+margin-top: 19px;
+}30%{
+margin-top: 0px;
+
+}
+
+
+}
+
+
+
+	#inp{
+		margin-left:109px;
+		border-color: white;
+		box-shadow: 0px 2px 13px red;
+		font-size:21px;
+		width:150px;
+		border-radius: 62px;
+		padding: 9px;
+		margin-top: 62px;
+}
+
+
+button{
+	color: red;
+	font-weight: bold;
+	border-color: #56effc;
+	background-color: #56effc;
+padding: 9px;
+border-radius: 12px;
+transition: 0.7s;
+	}
+	button:hover{
+	border-color: #56bdfc;
+
+transition: 1.9s;
+	}
+
+
+
+#logo{
+	margin-left: 3px;
+	margin-top: 3px;
+	height:42px;
+	width:55px;
+	border-radius: 33px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+#inp{
+
+		border-color: white;
+		box-shadow: 0px 2px 13px red;
+		font-size:17px;
+		width:130px;
+		border-radius: 62px;
+		padding: 5px;
+		margin-top: 62px;
+margin-left:30px;
+}button{
+	font-size:9px;
+color: red;
+	font-weight: bold;
+	border-color: #56effc;
+	background-color: #56effc;
+padding: 4px;
+border-radius: 12px;
+transition: 0.7s;
+}button:hover{
+	border-color: #56bdfc;
+
+transition: 1.9s;
+	}
+
+
+img{
+	hegiht:400px;
+	width:70%;
+animation:im 5s 1;
+	border-color: white;
+	margin-left: 38px;
+margin-top:19px;
+	align-items: center;
+}
+
+p{
+	color:#f1ffa3;
+	text-align: center;
+	animation:text 5s 1;
+	transition: 3s;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: 'Zen Kurenaido', sans-serif;
+	display:block;
+margin-top:10px;
+	text-align: center;
+}
+
+
+
+
+
+}
+
+	</style>
+
+
+
+
+
+</head>
+<body>
+<img  id="logo"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToGo12ZOgTb8uQF9SQjg3rgwrCIyWXqBb9Pw&usqp=CAU" alt="">
+
+	<input type="text" id="inp">
+	<button onclick="search()">search</button>
+	<biuv class="sbox">
+		 </div>
+
+	
+
+	<script>
+
+		function search(){
+
+
+	var sou=new Audio('mixkit-on-or-off-light-switch-tap-2585.wav');
+	sou.play();
+      
+			var i=document.getElementById('inp').value;
+
+
+
+
+
+
+
+
+
+//brock lesnor
+
+
+switch(i){
+case "brock lesnor":
+case "Brock lesnor":
+var p=document.createElement("p");
+p.innerHTML="Name:Brock Lesnor<br>Place:minnea Pollies   <br>weight:285pounds<br>Champion:5 times universel champ<br>3 times wwe champ<br>";
+
+
+
+var vid=document.createElement("img");
+vid.src="https://i.pinimg.com/originals/44/82/e9/4482e914a91fc8f3f52975cc8142a5e9.gif";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+
+
+
+
+//rock
+case "roman reigns":
+case "Roman reigns":
+
+var p=document.createElement("p");
+p.innerHTML="Name: Roman reigns<br>Place: pansacola florida   <br>weight: 265pounds<br>Champion: 3 times universel champ<br>2 times wwe champ<br>";
+
+
+var vid=document.createElement("img");
+vid.src="https://c.tenor.com/HCSrqDWiiNgAAAAM/roman-reigns-wwe.gif";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+//rock
+case "rock":
+case "Rock":
+
+var p=document.createElement("p");
+p.innerHTML="Name: The Rock<br>Place: Hayward California   <br>weight: 260pounds<br>Champion:6 times wwe champ<br>";
+
+
+var vid=document.createElement("img");
+vid.src="https://c.tenor.com/GkY0BS3F0R4AAAAM/the-rock-just-bring-it.gif";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+
+
+
+//rock
+case "roman reigns":
+case "Roman reigns":
+
+var p=document.createElement("p");
+p.innerHTML="Name: Roman reigns<br>Place: pansacola florida   <br>weight: 265pounds<br>Champion: 3 times universel champ<br>2 times wwe champ<br>";
+
+
+var vid=document.createElement("img");
+vid.src="https://c.tenor.com/HCSrqDWiiNgAAAAM/roman-reigns-wwe.gif";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+
+
+
+//seth
+case "seth rollins":
+case "Seth rollins":
+
+var p=document.createElement("p");
+p.innerHTML="Name: seth rollins<br>Place: moline,Illinois <br>weight: 217pounds<br>Champion: 3 times universel champ<br>2 times wwe champ<br>";
+
+
+var vid=document.createElement("img");
+vid.src="https://c.tenor.com/CJgqmITsVBkAAAAM/seth-rollins-2021.gif";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+
+
+
+//jhon cena
+case "jhon cena":
+case "Jhon cena":
+
+var p=document.createElement("p");
+p.innerHTML="Name: jhon cena<br>Place: Elizabeth Huberdeau <br>weight: 250pounds<br>Champion:16 times wwe champ<br>";
+
+
+var vid=document.createElement("img");
+vid.src="https://c.tenor.com/lobHm4G6EKsAAAAM/abell46s-reface.gif";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+
+
+
+
+//dean ambrose
+case "dean ambrose":
+case "Dean ambrose":
+
+var p=document.createElement("p");
+p.innerHTML="Name: dean ambrose<br>Place: Cincinnati, Ohio, U.S.A <br>weight: 225pounds<br>Champion:16 times wwe champ<br>3 time tag teem champ";
+
+
+var vid=document.createElement("img");
+vid.src="https://img.wattpad.com/bd0ad8c46e5ab043e0b174422f3ced5ebe38b996/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f32657452344d556d5a6b6c6d4e673d3d2d3335373333363235302e313439383364636332396664356632363236313239353833353637342e676966";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+
+
+
+
+//braun strowman
+case "braun strowman":
+case "Braun strowman":
+
+var p=document.createElement("p");
+p.innerHTML="Name: Braun strowman<br>Place: the Sherrills Ford, North Carolina<br>weight: 385pounds<br>Champion:1 times universal champ<br>2 time tag teem champ";
+
+
+var vid=document.createElement("img");
+vid.src="https://c.tenor.com/Z_QeyT65I6QAAAAM/braun-strowman-entrance.gif";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+
+
+
+
+
+
+
+//undertaker
+case "undertaker":
+case "Undertaker":
+
+var p=document.createElement("p");
+p.innerHTML="Name: undertaker<br>Place:Mark William Calaway<br>weight: 301pounds<br>Champion:9 wwe champ<br>wrestlemania 21 streaks";
+
+
+var vid=document.createElement("img");
+vid.src="https://c.tenor.com/U_Ui-eShCcEAAAAM/the-undertaker-youre-dead.gif";
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+div2.appendChild(vid);
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+break;
+
+
+
+default:
+
+var p=document.createElement("p");
+p.innerHTML="Not present :(";
+
+
+
+
+
+var div2=document.createElement("div");
+div2.setAttribute("id", "punder");
+
+div2.appendChild(p);
+
+document.body.appendChild(div2);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			}
+
+
+	</script>
+</body>
+
+
+</html>
